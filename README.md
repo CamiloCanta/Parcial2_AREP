@@ -9,7 +9,7 @@
 
 Creamos la instancia
 
-![img.png](img.png)
+![img.png](src/main/resources/img.png)
 
 instalamos Java, git y maven en nuestras instancias EC2
 
@@ -38,12 +38,12 @@ Limpiamos el target
   mvn clean package install
   ```
 
-![img_1.png](img_1.png)
+![img_1.png](src/main/resources/img_1.png)
 
 
 Importante abrir los puertos en la configuracion de la instancia
 
-![img_2.png](img_2.png)
+![img_2.png](src/main/resources/img_2.png)
 
 
 corremos el comando siguiente en nuestra instancia para correr la aplicacion y luego probar
@@ -52,9 +52,9 @@ corremos el comando siguiente en nuestra instancia para correr la aplicacion y l
 java -cp "target/classes:target/dependency/*" eci.escuelaing.edu.co.SparkLucas
 ```
 
-![img_3.png](img_3.png)
+![img_3.png](src/main/resources/img_3.png)
 
-![img_4.png](img_4.png)
+![img_4.png](src/main/resources/img_4.png)
 
 
 ### Video demo
